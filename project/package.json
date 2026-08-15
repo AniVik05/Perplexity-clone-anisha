@@ -1,0 +1,20 @@
+{
+  "name": "perplexica-clone-assignment",
+  "version": "1.0.0",
+  "description": "Group A/B/C agents for the Perplexica-style search & chat assignment",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test:reddit": "ts-node src/manual-tests/testReddit.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.2.0",
+    "axios": "^1.6.0",
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
